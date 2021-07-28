@@ -17,7 +17,6 @@ header{
 }
 .title{
     color: #fff;
-
     font-size: 26px;
     text-align: center;
 }
@@ -89,4 +88,204 @@ footer{
 .description h3, .description p{
     margin-bottom: 20px;
     text-align: left;
+}
+
+@media  screen and (max-width:768px) {
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    .formContainer{
+        background-color: #ffffffbb;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+         border-radius: 5px;
+     }
+     .formContainer h2{
+         font-size: 16px;
+         text-transform: uppercase;
+         text-align: left;
+         margin-bottom: 15px;
+     }
+     .formContainer p{
+         font-size: 16px;
+         text-align: left;
+         margin-bottom: 15px;
+     }
+   
+}
+@media  screen and (max-width:414px) {
+    .container{
+        width: 100%;
+    }
+    section{
+        background-image: url(../images/people.jpg);
+        background-size:cover;
+        overflow:hidden;
+        padding: 20px;
+        display: flex;
+    }
+    .formContainer{
+        float: none;
+        margin: auto;
+        background-color: #ffffffbb;
+        max-width: 90%;
+        padding: 20px;
+        text-align: center;
+         border-radius: 5px;
+     }
+     .formContainer h2{
+         font-size: 16px;
+         text-transform: uppercase;
+         text-align: left;
+         margin-bottom: 15px;
+     }
+     .formContainer p{
+         font-size: 16px;
+         text-align: left;
+         margin-bottom: 15px;
+     }
+     footer{
+        background-color: #202121;
+        text-align: center;
+        padding: 10px;
+    
+    }
+     .description{
+        color: white;
+        display:block;
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .description h3{
+        font-size: 24px;
+    }
+    .description h3, .description p{
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media  screen and (max-width:414px) {
+    .container{
+        width: 100%;
+    }
+    section{
+        background-image: url(../images/people.jpg);
+        background-size:cover;
+        overflow:hidden;
+        padding: 20px;
+        display: flex;
+    }
+    .formContainer{
+        float: none;
+        margin: auto;
+        background-color: #ffffffbb;
+        max-width: 90%;
+        padding: 20px;
+        text-align: center;
+         border-radius: 5px;
+     }
+     .formContainer h2{
+         font-size: 16px;
+         text-transform: uppercase;
+         text-align: left;
+         margin-bottom: 15px;
+     }
+     .formContainer p{
+         font-size: 16px;
+         text-align: left;
+         margin-bottom: 15px;
+     }
+     footer{
+        background-color: #202121;
+        text-align: center;
+        padding: 10px;
+    
+    }
+     .description{
+        color: white;
+        display:block;
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .description h3{
+        font-size: 24px;
+    }
+    .description h3, .description p{
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width:414px) {
+    .container{
+        width: 100%;
+    }
+    section{
+        background-image: url(../images/people.jpg);
+        background-size:cover;
+        overflow:hidden;
+        padding: 20px;
+        display: flex;
+    }
+    .formContainer{
+        float: none;
+        margin: auto;
+        background-color: #ffffffbb;
+        max-width: 90%;
+        padding: 20px;
+        text-align: center;
+         border-radius: 5px;
+     }
+     .formContainer h2{
+         font-size: 16px;
+         text-transform: uppercase;
+         text-align: left;
+         margin-bottom: 15px;
+     }
+     .formContainer p{
+         font-size: 16px;
+         text-align: left;
+         margin-bottom: 15px;
+     }
+     footer{
+        background-color: #202121;
+        text-align: center;
+        padding: 10px;
+    
+    }
+     .description{
+        color: white;
+        display:block;
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .description h3{
+        font-size: 24px;
+    }
+    .description h3, .description p{
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media  screen and (max-width:375px) {
+    
+     .description{
+    
+        width: 100%;
+        margin-left: 0;
+    }
+   
+    .description h3, .description p{
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
 }
