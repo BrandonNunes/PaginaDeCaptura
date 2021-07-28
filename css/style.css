@@ -22,7 +22,7 @@ header{
     text-align: center;
 }
 section{
-    background-image: url(/images/people.jpg);
+    background-image: url(../images/people.jpg);
     background-size:cover;
     overflow: hidden;
     padding: 20px;
@@ -66,4 +66,27 @@ select{
     background-image: url(../images/arrow.jpg);
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
+}
+footer{
+    background-color: #202121;
+    text-align: center;
+    padding: 40px;
+
+}
+.face{
+    width: 160px;
+  
+}
+.description{
+    color: white;
+    display: inline-block;
+    width: 40%;
+    margin-left: 40px;
+}
+.description h3{
+    font-size: 24px;
+}
+.description h3, .description p{
+    margin-bottom: 20px;
+    text-align: left;
 }

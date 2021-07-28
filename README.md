@@ -1,2 +1,2 @@
 # PaginaDeCaptura
-Pagina de captura paraalcançar pessoas
+## Projeto retirado do Curso ProgramadorBr FullStack. 
